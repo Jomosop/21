@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74AA1779-5AC1-4394-BE8A-062AC36804B1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_21</RootNamespace>
+    <AssemblyName>21</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kort.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KortLek.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Spelare.cs" />
+    <Compile Include="Spelaren.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bilder\1.png" />
+    <Content Include="bilder\10.png" />
+    <Content Include="bilder\11.png" />
+    <Content Include="bilder\12.png" />
+    <Content Include="bilder\13.png" />
+    <Content Include="bilder\14.png" />
+    <Content Include="bilder\15.png" />
+    <Content Include="bilder\16.png" />
+    <Content Include="bilder\17.png" />
+    <Content Include="bilder\18.png" />
+    <Content Include="bilder\19.png" />
+    <Content Include="bilder\2.png" />
+    <Content Include="bilder\20.png" />
+    <Content Include="bilder\21.png" />
+    <Content Include="bilder\22.png" />
+    <Content Include="bilder\23.png" />
+    <Content Include="bilder\24.png" />
+    <Content Include="bilder\25.png" />
+    <Content Include="bilder\26.png" />
+    <Content Include="bilder\27.png" />
+    <Content Include="bilder\28.png" />
+    <Content Include="bilder\29.png" />
+    <Content Include="bilder\3.png" />
+    <Content Include="bilder\30.png" />
+    <Content Include="bilder\31.png" />
+    <Content Include="bilder\32.png" />
+    <Content Include="bilder\33.png" />
+    <Content Include="bilder\34.png" />
+    <Content Include="bilder\35.png" />
+    <Content Include="bilder\36.png" />
+    <Content Include="bilder\37.png" />
+    <Content Include="bilder\38.png" />
+    <Content Include="bilder\39.png" />
+    <Content Include="bilder\4.png" />
+    <Content Include="bilder\40.png" />
+    <Content Include="bilder\41.png" />
+    <Content Include="bilder\42.png" />
+    <Content Include="bilder\43.png" />
+    <Content Include="bilder\44.png" />
+    <Content Include="bilder\45.png" />
+    <Content Include="bilder\46.png" />
+    <Content Include="bilder\47.png" />
+    <Content Include="bilder\48.png" />
+    <Content Include="bilder\49.png" />
+    <Content Include="bilder\5.png" />
+    <Content Include="bilder\50.png" />
+    <Content Include="bilder\51.png" />
+    <Content Include="bilder\52.png" />
+    <Content Include="bilder\53.png" />
+    <Content Include="bilder\54.png" />
+    <Content Include="bilder\6.png" />
+    <Content Include="bilder\7.png" />
+    <Content Include="bilder\8.png" />
+    <Content Include="bilder\9.png" />
+    <Content Include="bilder\b1fh.png" />
+    <Content Include="bilder\b1fv.png" />
+    <Content Include="bilder\b1pb.png" />
+    <Content Include="bilder\b1pl.png" />
+    <Content Include="bilder\b1pr.png" />
+    <Content Include="bilder\b1pt.png" />
+    <Content Include="bilder\b2fh.png" />
+    <Content Include="bilder\b2fv.png" />
+    <Content Include="bilder\b2pb.png" />
+    <Content Include="bilder\b2pl.png" />
+    <Content Include="bilder\b2pr.png" />
+    <Content Include="bilder\b2pt.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
